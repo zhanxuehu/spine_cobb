@@ -40,8 +40,6 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
 
-GUI 需要系统自带 Tk（Windows 一般可用；Linux 需 `python3-tk`）。
-
 ## 权重部署
 
 仓库默认**不提交**大权重与数据集。克隆后请把权重放到：
@@ -101,6 +99,8 @@ python spine_pose_yolo/eval_cascade_e2e.py ^
   --limit 40
 ```
 
+
+
 ## 目录结构
 
 ```text
@@ -123,6 +123,8 @@ spine_cobb/
 │   └── runs/                    # 训练/推理产物，不入库
 └── spine_roi_yolo/              # 可选 ROI 检测
 ```
+
+
 
 ## 从零训练（可选）
 
@@ -186,8 +188,6 @@ https://doi.org/10.1016/j.media.2021.102115
 Wu, H., Bailey, C., Rasoulinejad, P., & Li, S. Automatic landmark estimation for
 adolescent idiopathic scoliosis assessment using BoostNet. MICCAI, 2017.
 ```
-
-（挑战站点还建议一并引用 Wang et al. 2019 Multi-View Extrapolation Net、Chen et al. 2019 Spine Curve Analysis、Wu et al. 2018 MVC-Net 等；以官方 Paper 页为准。）
 
 ### Spinal-AI2024（中心点 / 混训）
 
