@@ -1,0 +1,7 @@
+# PyTorch / torchvision: install separately for your CUDA build
+# https://pytorch.org
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+torchvision>=0.15.0

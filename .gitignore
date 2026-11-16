@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Weights & large binaries (publish via Releases / LFS)
+best_weights/*.pt
+*.pt
+!yolo11s-pose.pt
+!yolov8n-pose.pt
+!yolov8n.pt
+
+# Datasets & training runs
+spine_pose_yolo/datasets/
+spine_pose_yolo/runs/
+spine_roi_yolo/runs/
+spine_roi_yolo/datasets/
+
+# Local / temp
+test/
+_patch_gui_v2.py
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+!docs/**/*.png
+
+# OS
+Thumbs.db
+.DS_Store

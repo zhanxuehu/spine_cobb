@@ -1,0 +1,29 @@
+﻿# spine_cobb package
+
+## contents
+- .gitignore  (0 MB)
+- cobb_angles.py  (0.02 MB)
+- gui_infer.py  (0.03 MB)
+- README.md  (0.01 MB)
+- requirements.txt  (0 MB)
+- robust_spine_infer.py  (0.01 MB)
+- xray_preprocess.py  (0 MB)
+- best_weights\vert_center_mix_v2_best.pt  (18.87 MB)
+- best_weights\vert_corner_reg_best.pt  (43.22 MB)
+- samples\sunhl-1th-02-Jan-2017-162 A AP_retrain.png  (1.26 MB)
+- samples\sunhl-1th-02-Jan-2017-162 B AP_retrain.png  (1.49 MB)
+- samples\sunhl-1th-03-Jan-2017-163 A AP_retrain.png  (0.72 MB)
+- spine_pose_yolo\cascade_infer.py  (0.01 MB)
+- spine_pose_yolo\corner_regressor.py  (0 MB)
+- spine_pose_yolo\eval_cascade_e2e.py  (0.01 MB)
+- spine_pose_yolo\infer_retrain_cascade.py  (0.02 MB)
+- spine_pose_yolo\infer_vert_pose.py  (0.01 MB)
+- spine_pose_yolo\prepare_retrain_datasets.py  (0.06 MB)
+- spine_pose_yolo\prepare_vert_pose_dataset.py  (0.02 MB)
+- spine_pose_yolo\train_corner_adj.py  (0.01 MB)
+- spine_pose_yolo\__init__.py  (0 MB)
+- spine_roi_yolo\infer_roi.py  (0 MB)
+- spine_roi_yolo\__init__.py  (0 MB)
+
+Total files: 23
+Total size MB: 65.8
